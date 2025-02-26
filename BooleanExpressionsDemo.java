@@ -1,5 +1,5 @@
 public class BooleanExpressionsDemo {
-    public static void main(String[] args, String areEqual) {
+    public static void main(String[] args) {
 
        boolean isJavaFun = true;
     boolean isHomeworkTiring = false;
@@ -20,7 +20,6 @@ public class BooleanExpressionsDemo {
         System.out.println("Is Java fun? " + isJavaFun);
 System.out.println("Is homework tiring? " + isHomeworkTiring);
 System.out.println("Is 'a' greater than 'b'? " + isAGreater);
-System.out.println("Are 'a' and 'b' equal? " + areEqual);
 System.out.println("Both conditions (isJavaFun && a<b): " + bothTrue);
 System.out.println("Either condition (isJavaFun || isHomeworkTiring): " + eitherTrue);
 System.out.println("Logical NOT of isHomeworkTiring: " + notTrue);
