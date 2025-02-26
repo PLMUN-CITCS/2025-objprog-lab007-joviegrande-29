@@ -1,7 +1,5 @@
 public class BooleanExpressionsDemo {
-
-    private static String areEqual;
-    public static void main(String[] args) {
+    public static void main(String[] args, String areEqual) {
 
        boolean isJavaFun = true;
     boolean isHomeworkTiring = false;
